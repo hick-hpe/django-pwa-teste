@@ -25,12 +25,12 @@ No arquivo `vercel.json`:
 
 ```json
 {
-    "builds": [
-        {
-        "src": "project_name/wsgi.py",
-        "use": "@vercel/python"
-        }
-    ],
+    // "builds": [
+    //     {
+    //     "src": "project_name/wsgi.py",
+    //     "use": "@vercel/python"
+    //     }
+    // ],
     "routes": [
         {
         "src": "/(.*)",
@@ -39,6 +39,13 @@ No arquivo `vercel.json`:
     ]
 }
 ```
+
+> ATENÇÃO: Quando você usa "builds" manualmente:<br>
+> > A Vercel IGNORA completamente os campos:
+> - Install Command
+> - Build Command
+> - Output Directory
+> do painel da Vercel.
 
 ---
 
