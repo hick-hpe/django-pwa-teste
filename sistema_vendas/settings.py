@@ -28,9 +28,10 @@ DEBUG = True
 
 # testes
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '192.168.3.27'
+    # '127.0.0.1',
+    # 'localhost',
+    # '192.168.3.27',
+    '.vercel.app'
 ]
 
 # Application definition
@@ -38,7 +39,7 @@ ALLOWED_HOSTS = [
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
+    'django.contrib.contenttypes',  
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
