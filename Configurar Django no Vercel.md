@@ -5,10 +5,10 @@ No arquivo `settings.py`:
 ALLOWED_HOSTS = [".vercel.app"]
 ```
 
-<!-- e também:
+e também:
 ```python
 DEBUG = False
-``` -->
+```
 
 ---
 
