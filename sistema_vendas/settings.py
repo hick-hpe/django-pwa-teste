@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sistema_vendas.wsgi.application'
+WSGI_APPLICATION = 'sistema_vendas.wsgi.app'
 
 
 # Database
