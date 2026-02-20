@@ -29,7 +29,7 @@ DEBUG = False
 # testes
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    # 'localhost',
+    'localhost',
     # '192.168.3.27',
     '.vercel.app'
 ]
@@ -37,6 +37,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',  
@@ -77,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sistema_vendas.wsgi.app'
+WSGI_APPLICATION = 'sistema_vendas.wsgi.application'
 
 
 # Database
