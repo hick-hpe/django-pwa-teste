@@ -28,10 +28,7 @@ DEBUG = False
 
 # testes
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    # '192.168.3.27',
-    '.vercel.app'
+    'django-pwa-teste.vercel.app'
 ]
 
 # Application definition
