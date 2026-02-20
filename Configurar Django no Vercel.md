@@ -1,4 +1,4 @@
-# Configurar Django no Vercel
+<!-- # Configurar Django no Vercel
 
 No arquivo `settings.py`:
 ```python
@@ -60,4 +60,4 @@ Na Vercel:
     python manage.py collectstatic --noinput
     ```
 
-- Variáveis de ambiente, caso tenha
+- Variáveis de ambiente, caso tenha -->

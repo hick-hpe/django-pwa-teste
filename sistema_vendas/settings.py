@@ -28,7 +28,7 @@ DEBUG = False
 
 # testes
 ALLOWED_HOSTS = [
-    'django-pwa-teste.vercel.app'
+    'palermo.pythonanywhere.com'
 ]
 
 # Application definition

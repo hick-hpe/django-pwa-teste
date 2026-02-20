@@ -20,8 +20,8 @@ O objetivo é mostrar como transformar um site Django em um app instalável com 
 
 1. Clone o repositório:
     ```bash
-        git clone https://github.com/hick-hpe/django-pwa-teste.git
-        cd django-pwa-teste
+    git clone https://github.com/hick-hpe/django-pwa-teste.git
+    cd django-pwa-teste
     ```
 
 2. Crie e ative um ambiente virtual:
@@ -49,3 +49,8 @@ O objetivo é mostrar como transformar um site Django em um app instalável com 
     ```
 
 Abra o navegador em [http://127.0.0.1:8000/](http://127.0.0.1:8000/) para testar.
+
+## 🌐 Servidor Online
+
+O site está disponível em:  
+[https://palermo.pythonanywhere.com/](https://palermo.pythonanywhere.com/)
